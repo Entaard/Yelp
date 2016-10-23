@@ -106,7 +106,10 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ub9-2I-tH0">
-                                <state key="normal" title="Scroll to Top"/>
+                                <color key="backgroundColor" red="0.061615716247967356" green="0.93367365532072399" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Scroll to Top">
+                                    <color key="titleColor" red="0.99391000264035412" green="1" blue="0.99934031663862466" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="scrollTop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfb-sc-Qvs"/>
                                 </connections>
